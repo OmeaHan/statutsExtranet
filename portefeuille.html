@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statuts - demandes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Menu</h2>
+      <div class="sidebar-links">
+        <div><a href="index.html">Devis</a></div>
+        <div><a href="tampon.html">Zone tampon</a></div>
+        <div><a href="validation.html">Validation</a></div>
+        <div><a href="portefeuille.html">Portefeuille</a></div>
+        <div><a href="instance.html">Instance</a></div>
+        <div><a href="impaye.html">Impayé</a></div>
+        <div><a href="annule.html">Annulé</a></div>
+        <div><a href="resilie.html">Résilié</a></div>
+
+        <h2>Colonnes</h2>
+        <div><a href="colonnes.html">Colonnes</a></div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>Portefeuille</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Statut</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Demande 1</td>
+            <td class="statut"><span>En cours</span></td>
+            <td class="actions">
+              <button>Voir</button>
+              <button>Avenant</button>
+              <button><a href="annule.html">Sans effet</a></button>
+              <!-- Faire des avenants (retirer un conjoint du contrat, rajouter un enfant au contrat, modifier un adresse, changer de formule) -->
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Demande 2</td>
+            <td class="statut"><span>En cours</span></td>
+            <td class="actions">
+              <button>Voir</button>
+              <button>Avenant</button>
+              <button><a href="annule.html">Sans effet</a></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
