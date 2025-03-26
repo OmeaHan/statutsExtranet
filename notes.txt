@@ -1,0 +1,29 @@
+* Annulation
+On annule un contrat qui n'est pas validé (qui n'est pas en portefeuille)
+Lorsqu'on annule une demande, il faudra permettre à l'utilisateur de choisir le motif (Rétractation/Qualité)
+
+* Résiliation
+
+On résilie un contrat qui a pris effet. 
+
+Les motifs de résiliation :
+Non paiement (Le client n'a pas payé sa cotisation)
+A échéance (Au terme du contrat du client, si il ne souhaite pas renouveler son contrat (Avec un préavis).)
+Infra annuelle (Si le contrat a plus d'un an, le client peut, selon la loi résilier son contrat lorsqu'il le souhaite)
+Exceptionnel (Un client qui a plusieurs affiliations simultanées. Un client sous tutelle (qui ne peut pas s'occuper de lui même).)
+
+
+Cas de non paiement. 
+
+Ex : 
+
+Le contrat du client débute en janvier. Il paye en Janvier, en février. En mars, il ne paye pas. 
+Celà provoque un premier rejet. Si en avril, il ne paye pas, un deuxième rejet est provoqué avec 
+suspension de la garantie. Dix jours plus tard on lance un recouvrement avec une lettre de mise en demeure.
+
+Un fichier provenant de la banque sera chargé dans l'application, ce qui permettra de  faire passer en 
+impayé les client qui n'ont pas payé leur cotisation.
+
+Si une régularisation est faite avant le deuxième rejet, on revient au statut en portefeuille.
+
+Le deuxième rejet est déclenché par un deux impayé consécutifs.
